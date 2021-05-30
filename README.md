@@ -1,7 +1,7 @@
 # Contact_Forma_Me_PHP_8
 
 [ENG] This is a Contact Form Built in Php 8
--------------------------------------------------------------
+_______________________________________________
 [ALB] Kjo eshte nje Kontakt Forme e Ndertuar ne Php 8
 
 
