@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si t&euml; Rregulloj pjes&euml;n e Mesazhit te Form&euml;s</title>
+</head>
+<body>
+    <!--  
+        Kete Kod E Merr Copy prej Tagut Hapes <table> deri ne fund tek </table> 
+        -> Ne perjashtim te Komenteve Komentet mos i merr copy sepse me duket se bejne Errora,
+
+        dhe pastaj
+
+        Shkon tek ky web: http://minifycode.com/html-minifier/
+        dhe e ben paste kodin pastaj e ben Minify e merr Copy dhe e vendos ne kete pjese $mail->Body='ketu'; tek File -> index.php 
+
+     -->
+    <table cellpadding="0" cellspacing="0" border="0" bgcolor="#f9f9f8" style="width:100%;background-color:#f9f9f8;margin:0 auto" width="100%">
+        <tbody>
+            <tr>
+                <td valign="top" align="center" style="vertical-align:top">
+                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:22px auto;max-width:616px" width="100%">
+                        <tbody>
+                            <tr>
+                                <td style="vertical-align:top" valign="top">
+                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="vertical-align:top;color:#103742;padding:22px" valign="top">
+                                                    <div> <img src="http://mywebdomain.com/favicon.ico" alt="Web Title" width="66px" height="66px" style="max-width:100%;margin-bottom:22px"></div>
+                                                    <p style="font-weight:700;margin-bottom:11px;font-family:&quot;Poppins&quot;,sans-serif;margin:0;text-transform:uppercase">Mesazh i ri - Emri i Faqes Tende</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="vertical-align:top;padding:22px" valign="top">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%" width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" style="vertical-align:top;padding:0 0 22px" valign="top">P&euml;rsh&euml;ndetje,<br />Dikush sapo D&euml;rgoi Mesazh nga:<br /><br /><a href="http://mywebdomain.com/" target="_blank" title="mywebdomain.com">mywebdomain.com</a>. <br /><br /> Ja &ccedil;far&euml; kishin p&euml;r t&euml; th&euml;n&euml;:</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;background-color:#fff" width="100%" bgcolor="#ffffff">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" style="vertical-align:top" valign="top">
+                                                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;text-align:left" width="100%" align="left">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px" valign="top">
+                                                                                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%" width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px;border-bottom:#e3e3da 1px solid;font-size:14px" valign="top"> <strong>Emri:</strong><br /><br />
+                                                                                                    <pre style="white-space:pre-line;font-family:inherit;margin:0">'.$_POST['name'].'</pre>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px;border-bottom:#e3e3da 1px solid;font-size:14px" valign="top"> <strong>E-Mail Adresa:</strong><br /><br />
+                                                                                                    <pre style="white-space:pre-line;font-family:inherit;margin:0"><a href="mailto:'.$_POST['email'].'" target="_blank">'.$_POST['email'].'</a></pre>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px;border-bottom:#e3e3da 1px solid;font-size:14px" valign="top"> <strong>Subjekti:</strong><br /><br />
+                                                                                                    <pre style="white-space:pre-line;font-family:inherit;margin:0">'.$_POST['subject'].'</pre>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px;border-bottom:#e3e3da 1px solid;font-size:14px" valign="top"> <strong>Mesazhi:</strong><br /><br />
+                                                                                                    <pre style="white-space:pre-line;font-family:inherit;margin:0">'.$_POST['message'].'</pre>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr align="center" style="padding:0 0 22px">
+                                                                                <td style="vertical-align:top;font-family:&quot;Source Code Pro&quot;,monospace;padding:11px" valign="top"> <span style="color:#918f8d;font-size:12px">D&euml;rguar me: '. $currentDateTime = date('Y-m-d H:i:s') . $currentDateTime .'</span></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<!--  
+Deri ketu ↑ 
+-->
+</body>
+</html>
